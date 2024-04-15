@@ -1,0 +1,9 @@
+{% extends 'layouts/app.html' %}
+
+{% block content %}
+<div class='d-flex flex-column  justify-content-center align-items-center'  style="height: 100vh; ">
+<h1 class='d-flex justify-content-center align-items-center  ' style="padding: 25px;">Current Login User:-{{request.user.username}} </h1>
+<a href="{% url 'logout' %}" class="'btn btn-primary text-center d-block mx-auto 'd-flex justify-content-center align-items-center  '" style="width:10vw; height: 6vh;              font-size: 22px; border-radius: 8px;">Logout</a>
+
+</div>
+{% endblock %}
