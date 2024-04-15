@@ -11,5 +11,5 @@ In dashboard we can see who is currently login in project http://127.0.0.1:8000/
                                                                                                                                                   
 Installed Package :-
 
-Django 5.0.1                                                                                                                                                
-djangorestframework 3.14.0
+Django== 5.0.1                                                                                                                                                
+djangorestframework== 3.14.0                                                                                                                                                                                                                                                                                                                                                                                                              virtualenv== 20.24.5
